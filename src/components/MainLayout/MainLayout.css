@@ -1,0 +1,33 @@
+.header {
+  background-color: #bbbb16;
+}
+
+.logo {
+  float: left;
+  margin-right: 64px;
+}
+
+.logo .avatar{
+  float: left;
+  margin-top: 16px;
+  margin-right: 8px;
+}
+
+.logo .title{
+  color: white;
+  float: left;
+  font-size: 20px;
+  height: 32px;
+}
+
+.adminName {
+  float: right;
+}
+
+.breadcrumb {
+  margin: 16px 0
+}
+
+.breadcrumbIcon {
+  margin-right: 3px;
+}

@@ -1,0 +1,10 @@
+{
+  "api": {
+    "admin": {
+      "login": "/web/v1/admin/login",
+      "logout": "/web/v1/admin/logout",
+      "info": "/web/v1/admin/info",
+      "update_password": "/web/v1/admin/update_password"
+    }
+  }
+}
