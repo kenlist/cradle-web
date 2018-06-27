@@ -2,7 +2,7 @@ import React from 'react';
 import { Router, Route, Switch, Redirect } from 'dva/router';
 import LoginPage from './routes/Login/LoginPage';
 import LogoutPage from './routes/Login/LogoutPage';
-import IndexPage from './routes/Index/IndexPage';
+import MainPage from './routes/Index/MainPage';
 
 const renderMergedProps = (component, ...rest) => {
   const finalProps = Object.assign({}, ...rest);
@@ -26,8 +26,8 @@ function RouterConfig({ history }) {
         <Route path="/login" exact component={LoginPage} />       
         <Route path="/logout" exact component={LogoutPage} />
 
-        <Redirect exact from="/" to="/index" />
-        <Route path="/index" exact component={IndexPage} />
+        <Redirect exact from="/" to="/main" />
+        <Route path="/main" exact component={MainPage} />
       </Switch>
     </Router>
   );

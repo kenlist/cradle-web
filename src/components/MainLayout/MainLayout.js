@@ -82,7 +82,7 @@ class MainLayout extends React.Component {
             </Dropdown>
           </div>
         </Header>
-        <Content style={{ padding: '0 50px', height: contentHeight }}>
+        <Content style={{ padding: '0 0px', height: contentHeight }}>
           {this.props.children}
         </Content>
         <Footer style={{ textAlign: 'center' }}>
